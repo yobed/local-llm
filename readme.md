@@ -1,16 +1,17 @@
-# Local LLM Journey
+# Local LLM Journey 
+
 > To explore local LLMs, RAG, and other tools.
 
-> Using a Macbook Pro M4, 24GB RAM
-
 Using Ollama, we can grab the latest open source LLMs that are available. See [ollama.com](https://ollama.com)
+> Using a Macbook Pro M4, 24GB RAM so I went with DeepSeek 7b.
 
-**Purpose**: Private LLM processing for local use, no need for API keys or internet access.
+
+**Purpose**: Private LLM processing for local use, no need for API keys or internet access. **This is all done locally** except for downloading a LLM via Ollama.
 
 
 
 ## LangChain Local LLM w/ RAG:
-**Retrieval-Augmented Generation (RAG)**: "Generate an answer, but first go fetch the most relevant nuggets from a knowledge store that the model hasn’t memorized." via ChatGPT. Allows for more accurate and up-to-date responses geared towards specific **knowledge bases**.
+**Retrieval-Augmented Generation (RAG)**: "Generate an answer, but first go fetch the most relevant nuggets from a knowledge store that the model hasn’t memorized." Allows for more accurate and up-to-date responses geared towards specific **knowledge bases**.
 
 Sample code **derived from** [LangChain Ollama Example](https://python.langchain.com/docs/how_to/local_llms/).
 
