@@ -26,7 +26,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_core.documents import Document
 ```
 
-* Imports necessary libraries for embeddings and vector stores. See [FAISS (explain further down)](https://github.com/facebookresearch/faiss)
+* Imports necessary libraries for embeddings and vector stores. See [FAISS (explained further down)](https://github.com/facebookresearch/faiss)
 
 ---
 ```python
