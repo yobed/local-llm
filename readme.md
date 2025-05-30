@@ -26,7 +26,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_core.documents import Document
 ```
 
-* Imports necessary libraries for embeddings and vector stores.
+* Imports necessary libraries for embeddings and vector stores. See [FAISS (explain further down)](https://github.com/facebookresearch/faiss)
 
 ---
 ```python
@@ -54,7 +54,7 @@ texts = loader.apply(
     axis=1
 ).tolist()
 ```
-* Loads a CSV file containing WallStreetBets data, extracting relevant text data from the 'title', 'body', 'sentiment', and 'rationale' columns.
+* Loads a CSV file containing WallStreetBets (data from my other project github.com/yobed/wsb/) data, extracting relevant text data from the 'title', 'body', 'sentiment', and 'rationale' columns.
 * The `texts` variable is a list of strings, each containing the combined text from these columns.
 ---
 ```python
