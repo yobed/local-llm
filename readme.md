@@ -11,7 +11,10 @@ Using Ollama, we can grab the latest open source LLMs that are available. See [o
 
 
 ## LangChain Local LLM w/ RAG:
-**Retrieval-Augmented Generation (RAG)**: "Generate an answer, but first go fetch the most relevant nuggets from a knowledge store that the model hasn’t memorized." Allows for more accurate and up-to-date responses geared towards specific **knowledge bases**.
+
+**LangChain**: A framework for developing applications powered by Large Language Models (LLMs)-- simplifying the stages of the application life cycle [source](https://python.langchain.com/docs/introduction/).
+
+**Retrieval-Augmented Generation (RAG)**: "Generate an answer, but first go fetch the most relevant nuggets from a knowledge store that the model hasn’t memorized." Allows for more accurate and up-to-date responses geared towards specific **knowledge bases**.  *RAG basically puts in context before a user's prompt*.
 
 Sample code **derived from** [LangChain Ollama Example](https://python.langchain.com/docs/how_to/local_llms/).
 
