@@ -1,0 +1,3 @@
+*.csv
+/faiss_index
+/faiss_index/.*
